@@ -11,7 +11,6 @@
       "image": "https://images.unsplash.com/photo-1606755962773-d324e0a13086?auto=format&fit=crop&w=800&q=80"
     }
   ],
-
   "steps": [
     {
       "id": 1,
@@ -35,45 +34,40 @@
       "id": 3,
       "burgerId": 1,
       "stepNumber": 3,
-      "field": "toppings",
+      "field": "topping1",
       "type": "multiple-choice",
-      "instruction": "Choose your toppings",
+      "instruction": "Choose your first topping",
       "options": ["Lettuce", "Tomato", "Pickles", "Onions"]
     },
     {
       "id": 4,
       "burgerId": 1,
       "stepNumber": 4,
+      "field": "topping2",
+      "type": "multiple-choice",
+      "instruction": "Choose your second topping",
+      "options": ["Lettuce", "Tomato", "Pickles", "Onions"]
+    },
+    {
+      "id": 5,
+      "burgerId": 1,
+      "stepNumber": 5,
+      "field": "topping3",
+      "type": "multiple-choice",
+      "instruction": "Choose your third topping",
+      "options": ["Lettuce", "Tomato", "Pickles", "Onions"]
+    },
+    {
+      "id": 6,
+      "burgerId": 1,
+      "stepNumber": 6,
       "field": "sauce",
       "type": "multiple-choice",
       "instruction": "Choose your sauce",
       "options": ["Spicy Mayo", "Signature Sauce", "BBQ"]
     },
     {
-      "id": 5,
-      "burgerId": 1,
-      "stepNumber": 5,
-      "field": "presentation",
-      "type": "image-selection",
-      "instruction": "Choose your burger presentation style",
-      "imageOptions": [
-        {
-          "label": "Classic",
-          "url": "https://images.unsplash.com/photo-1550547660-d9450f859349?auto=format&fit=crop&w=800&q=80"
-        },
-        {
-          "label": "Smashed",
-          "url": "https://images.unsplash.com/photo-1550317138-10000687a72b?auto=format&fit=crop&w=800&q=80"
-        },
-        {
-          "label": "Triple",
-          "url": "https://images.unsplash.com/photo-1594212699903-ec8a3eca50f5?auto=format&fit=crop&w=800&q=80"
-        }
-      ]
-    },
-
-    {
-      "id": 6,
+      "id": 7,
       "burgerId": 2,
       "stepNumber": 1,
       "field": "bun",
@@ -82,7 +76,7 @@
       "options": ["Potato", "Brioche", "Multigrain"]
     },
     {
-      "id": 7,
+      "id": 8,
       "burgerId": 2,
       "stepNumber": 2,
       "field": "protein",
@@ -91,47 +85,42 @@
       "options": ["Grilled Chicken", "Crispy Chicken", "Grilled Vegan Patty"]
     },
     {
-      "id": 8,
-      "burgerId": 2,
-      "stepNumber": 3,
-      "field": "toppings",
-      "type": "multiple-choice",
-      "instruction": "Choose your toppings",
-      "options": ["Lettuce", "Tomato", "Pickles", "Onions"]
-    },
-    {
       "id": 9,
       "burgerId": 2,
-      "stepNumber": 4,
-      "field": "sauce",
+      "stepNumber": 3,
+      "field": "topping1",
       "type": "multiple-choice",
-      "instruction": "Choose your sauce",
-      "options": ["Spicy Mayo", "Signature Sauce", "BBQ"]
+      "instruction": "Choose your first topping",
+      "options": ["Lettuce", "Tomato", "Pickles", "Onions"]
     },
     {
       "id": 10,
       "burgerId": 2,
+      "stepNumber": 4,
+      "field": "topping2",
+      "type": "multiple-choice",
+      "instruction": "Choose your second topping",
+      "options": ["Lettuce", "Tomato", "Pickles", "Onions"]
+    },
+    {
+      "id": 11,
+      "burgerId": 2,
       "stepNumber": 5,
-      "field": "presentation",
-      "type": "image-selection",
-      "instruction": "Choose your burger presentation style",
-      "imageOptions": [
-        {
-          "label": "Classic Style",
-          "url": "https://images.unsplash.com/photo-1550547660-d9450f859349?auto=format&fit=crop&w=800&q=80"
-        },
-        {
-          "label": "Stacked Style",
-          "url": "https://images.unsplash.com/photo-1572802419224-296b0aeee0d9?auto=format&fit=crop&w=800&q=80"
-        },
-        {
-          "label": "Loaded Style",
-          "url": "https://images.unsplash.com/photo-1594212699903-ec8a3eca50f5?auto=format&fit=crop&w=800&q=80"
-        }
-      ]
+      "field": "topping3",
+      "type": "multiple-choice",
+      "instruction": "Choose your third topping",
+      "options": ["Lettuce", "Tomato", "Pickles", "Onions"]
+    },
+    {
+      "id": 12,
+      "burgerId": 2,
+      "stepNumber": 6,
+      "field": "sauce",
+      "type": "multiple-choice",
+      "instruction": "Choose your sauce",
+      "options": ["Spicy Mayo", "Signature Sauce", "BBQ"]
     }
   ],
-
   "feedback": [
     {
       "id": 1,
@@ -140,7 +129,6 @@
       "message": "Nice pick! The potato bun and signature sauce make a great combo."
     }
   ],
-
   "messages": [
     {
       "id": 1,
