@@ -37,7 +37,7 @@
       "field": "topping1",
       "type": "multiple-choice",
       "instruction": "Choose your first topping",
-      "options": ["Lettuce", "Cheese", "Pickles", "Tomatoes"]
+      "options": ["Lettuce", "Tomato", "Pickles", "Cheese"]
     },
     {
       "id": 4,
@@ -46,7 +46,7 @@
       "field": "topping2",
       "type": "multiple-choice",
       "instruction": "Choose your second topping",
-      "options": ["Lettuce", "Tomato", "Pickles", "Onions"]
+      "options": ["Lettuce", "Tomato", "Pickles", "Cheese"]
     },
     {
       "id": 5,
@@ -55,7 +55,7 @@
       "field": "topping3",
       "type": "multiple-choice",
       "instruction": "Choose your third topping",
-      "options": ["Lettuce", "Tomato", "Pickles", "Onions"]
+      "options": ["Lettuce", "Tomato", "Pickles", "Cheese"]
     },
     {
       "id": 6,
@@ -91,7 +91,7 @@
       "field": "topping1",
       "type": "multiple-choice",
       "instruction": "Choose your first topping",
-      "options": ["Lettuce", "Tomato", "Pickles", "Onions"]
+      "options": ["Lettuce", "Tomato", "Pickles", "Cheese"]
     },
     {
       "id": 10,
@@ -100,7 +100,7 @@
       "field": "topping2",
       "type": "multiple-choice",
       "instruction": "Choose your second topping",
-      "options": ["Lettuce", "Tomato", "Pickles", "Onions"]
+      "options": ["Lettuce", "Tomato", "Pickles", "Cheese"]
     },
     {
       "id": 11,
@@ -109,7 +109,7 @@
       "field": "topping3",
       "type": "multiple-choice",
       "instruction": "Choose your third topping",
-      "options": ["Lettuce", "Tomato", "Pickles", "Onions"]
+      "options": ["Lettuce", "Tomato", "Pickles", "Cheese"]
     },
     {
       "id": 12,
