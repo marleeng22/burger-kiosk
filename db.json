@@ -37,7 +37,7 @@
       "field": "topping1",
       "type": "multiple-choice",
       "instruction": "Choose your first topping",
-      "options": ["Lettuce", "Tomato", "Pickles", "Onions"]
+      "options": ["Lettuce", "Cheese", "Pickles", "Tomatoes"]
     },
     {
       "id": 4,
