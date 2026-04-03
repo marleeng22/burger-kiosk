@@ -3,14 +3,15 @@
     {
       "id": 1,
       "title": "Premium Beef Burger",
-      "image": https://unsplash.com/photos/burger-with-lettuce-and-tomatoes-sc5sTPMrVfk
+      "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&w=800&q=80"
     },
     {
       "id": 2,
       "title": "Fried Chicken Burger",
-      "image": https://unsplash.com/photos/a-chicken-sandwich-on-a-plate-next-to-a-basket-of-fries-8JklXjB2X3w
+      "image": "https://images.unsplash.com/photo-1606755962773-d324e0a13086?auto=format&fit=crop&w=800&q=80"
     }
   ],
+
   "steps": [
     {
       "id": 1,
@@ -29,14 +30,24 @@
       "type": "multiple-choice",
       "instruction": "Choose your protein",
       "options": ["Beef", "Vegan Patty", "Chicken"]
-   },
+    },
+    {
+      "id": 3,
+      "burgerId": 1,
+      "stepNumber": 3,
+      "field": "toppings",
+      "type": "multiple-choice",
+      "instruction": "Choose your toppings",
+      "options": ["Lettuce", "Tomato", "Pickles", "Onions"]
+    },
     {
       "id": 4,
       "burgerId": 1,
       "stepNumber": 4,
       "field": "sauce",
-      "type": "Choose your sauce"
-      "instruction": ["Spicy Mayo", "Signature Sauce", "BBQ"]
+      "type": "multiple-choice",
+      "instruction": "Choose your sauce",
+      "options": ["Spicy Mayo", "Signature Sauce", "BBQ"]
     },
     {
       "id": 5,
@@ -48,18 +59,19 @@
       "imageOptions": [
         {
           "label": "Classic",
-          "url": "https://unsplash.com/photos/burger-with-lettuce-and-tomato-Fn6dPYtPUMc"
+          "url": "https://images.unsplash.com/photo-1550547660-d9450f859349?auto=format&fit=crop&w=800&q=80"
         },
         {
           "label": "Smashed",
-          "url": "https://unsplash.com/photos/a-close-up-of-a-hamburger-on-a-tray-HDwIlC8yrbo"
+          "url": "https://images.unsplash.com/photo-1550317138-10000687a72b?auto=format&fit=crop&w=800&q=80"
         },
         {
           "label": "Triple",
-          "url": "https://unsplash.com/photos/burger-with-lettuce-and-tomato-48F-Uvx9wvw"
+          "url": "https://images.unsplash.com/photo-1594212699903-ec8a3eca50f5?auto=format&fit=crop&w=800&q=80"
         }
       ]
     },
+
     {
       "id": 6,
       "burgerId": 2,
@@ -92,8 +104,9 @@
       "burgerId": 2,
       "stepNumber": 4,
       "field": "sauce",
-      "type": "Choose your sauce"
-      "instruction": ["Spicy Mayo", "Signature Sauce", "BBQ"]
+      "type": "multiple-choice",
+      "instruction": "Choose your sauce",
+      "options": ["Spicy Mayo", "Signature Sauce", "BBQ"]
     },
     {
       "id": 10,
@@ -105,7 +118,7 @@
       "imageOptions": [
         {
           "label": "Classic Style",
-          "url": "https://images.unsplash.com/photo-1550317138-10000687a72b?auto=format&fit=crop&w=800&q=80"
+          "url": "https://images.unsplash.com/photo-1550547660-d9450f859349?auto=format&fit=crop&w=800&q=80"
         },
         {
           "label": "Stacked Style",
@@ -118,14 +131,16 @@
       ]
     }
   ],
+
   "feedback": [
     {
       "id": 1,
       "bun": "Potato",
       "sauce": "Signature Sauce",
-"message": "Nice pick! The potato bun and signature sauce make a great combo."
+      "message": "Nice pick! The potato bun and signature sauce make a great combo."
     }
   ],
+
   "messages": [
     {
       "id": 1,
